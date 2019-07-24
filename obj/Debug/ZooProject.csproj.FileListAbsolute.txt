@@ -1,7 +1,0 @@
-C:\Users\Vlad\source\repos\AnimalsProjectFinal\obj\Debug\AnimalsProjectFinal.csprojAssemblyReference.cache
-C:\Users\Vlad\source\repos\AnimalsProjectFinal\obj\Debug\AnimalsProjectFinal.csproj.CoreCompileInputs.cache
-C:\Users\Vlad\source\repos\AnimalsProjectFinal\bin\Debug\AnimalsProjectFinal.exe.config
-C:\Users\Vlad\source\repos\AnimalsProjectFinal\bin\Debug\AnimalsProjectFinal.exe
-C:\Users\Vlad\source\repos\AnimalsProjectFinal\bin\Debug\AnimalsProjectFinal.pdb
-C:\Users\Vlad\source\repos\AnimalsProjectFinal\obj\Debug\AnimalsProjectFinal.exe
-C:\Users\Vlad\source\repos\AnimalsProjectFinal\obj\Debug\AnimalsProjectFinal.pdb

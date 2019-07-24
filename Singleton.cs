@@ -2,24 +2,24 @@
 
 public sealed class Singleton
 {
-    private static Singleton instance = null;
+    private static Singleton animalslist = null;
     private static readonly object padlock = new object();
 
     Singleton()
     {
     }
 
-    public static Singleton Instance
+    public static Singleton AnimalsList
     {
         get
         {
             lock (padlock)
             {
-                if (instance == null)
+                if (animalslist == null)
                 {
-                    instance = new Singleton();
+                    animalslist = new Singleton();
                 }
-                return instance;
+                return animalslist;
             }
         }
     }

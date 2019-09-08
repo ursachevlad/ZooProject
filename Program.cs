@@ -6,7 +6,7 @@ namespace ZooProject
     {
         static void Main(string[] args)
         {
-            AnimalsList animalsList = new AnimalsList();
+            AnimalsList zooAnimals = AnimalsList.Animals();
             animalsList.ShowAnimals();
         }
     }

@@ -8,7 +8,7 @@ namespace ZooProject.Actions
     {
         private List<Animal> animals;
 
-        public AnimalsList()
+        private AnimalsList()
         {
             animals = new List<Animal>();
 

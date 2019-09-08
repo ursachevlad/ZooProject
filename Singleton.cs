@@ -7,6 +7,7 @@ public sealed class Singleton
 
     Singleton()
     {
+
     }
 
     public static Singleton AnimalsList

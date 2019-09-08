@@ -6,7 +6,7 @@ namespace ZooProject
     {
         static void Main()
         {
-            Creator[] creators = new Creator[2];
+            Zoo[] creators = new Zoo[2];
 
             creators[0] = new ConcreteCreatorA();
             creators[1] = new ConcreteCreatorB();

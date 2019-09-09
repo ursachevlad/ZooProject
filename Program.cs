@@ -15,7 +15,7 @@ namespace ZooProject
             Horse.Drive(10);
  
             IAnimalsActivity dog = animalsactivity.GetAnimal("Dog");
-            dog.Drive(20);
+            dog.Drive(5);
  
             Console.ReadKey();
         }

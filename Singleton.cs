@@ -1,16 +1,15 @@
 ﻿using System;
 
-public sealed class Singleton
+public sealed class AnimalsList
 {
-    private static Singleton animalslist = null;
+    private static AnimalsList animal = null;
     private static readonly object padlock = new object();
 
-    Singleton()
+    AnimalsList()
     {
-
     }
 
-    public static Singleton AnimalsList
+    public static AnimalsList Animal
     {
         get
         {
@@ -18,7 +17,7 @@ public sealed class Singleton
             {
                 if (animalslist == null)
                 {
-                    animalslist = new Singleton();
+                    animalslist = new AnimalsList();
                 }
                 return animalslist;
             }

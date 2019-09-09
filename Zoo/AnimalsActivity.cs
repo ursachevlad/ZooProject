@@ -2,7 +2,7 @@
 
 namespace AnimalsActivity
 {
-    public class Horse : IFactory
+    public class Horse : IAnimalsActivity
     {
         public void Drive(int miles)
         {
@@ -10,7 +10,7 @@ namespace AnimalsActivity
         }
     }
 
-    public class Dog : IFactory
+    public class Dog : IAnimalsActivity
     {
         public void Drive(int miles)
         {
@@ -20,12 +20,12 @@ namespace AnimalsActivity
 
     public abstract class Animal
     {
-        public abstract IFactory GetAnimal(string Animal);
+        public abstract IAnimalsActivity GetAnimal(string Animal);
     }
 
     public class ConcreteAnimal : Animal
     {
-        public override IFactory Animal(string Animal)
+        public override IAnimalsActivity Animal(string Animal)
         {
             switch (Animal)
             {

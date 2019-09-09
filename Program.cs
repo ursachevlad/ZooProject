@@ -16,12 +16,17 @@ namespace ZooProject
  
             IAnimalsActivity dog = animalsactivity.GetAnimal("Dog");
             dog.Drive(5);
-
             Console.ReadKey();
 
             AnimalsList.Instance.Show();
             AnimalsList.Instance.Show();
+            Console.ReadKey();
 
+            SpecialOffer offer = new SpecialOffer(car);
+            offer.DiscountPercentage = 25;
+            offer.Offer = "25 % discount";
+ 
+            Console.WriteLine("{1} @ Zoo Special Offer and price are : {0} ", offer.Price, offer.Offer);
             Console.ReadKey();
         }
     }

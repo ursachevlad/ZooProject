@@ -3,17 +3,22 @@
 public sealed class AnimalsList
 {
     private static AnimalsList instance = null;
-    private static readonly object padlock = new object();
+    private string Name {get; set;}
+    private string Category { get; set; }
+    private static readonly object syncLock = new object();
 
-    AnimalsList()
+    private Singleton()
     {
+        Console.WriteLine("Singleton Intance");
+        Name = "BlackBeauty";
+        Category = "Horse";
     }
 
     public static AnimalsList Instance
     {
         get
         {
-            lock (padlock)
+            lock (syncLock)
             {
                 if (instance == null)
                 {
@@ -22,5 +27,10 @@ public sealed class AnimalsList
                 return instance;
             }
         }
+    }
+
+    public void Show()
+    {
+        Console.WriteLine("Animals list as a database");
     }
 }

@@ -16,7 +16,12 @@ namespace ZooProject
  
             IAnimalsActivity dog = animalsactivity.GetAnimal("Dog");
             dog.Drive(5);
- 
+
+            Console.ReadKey();
+
+            AnimalsList.Instance.Show();
+            AnimalsList.Instance.Show();
+
             Console.ReadKey();
         }
     }

@@ -7,7 +7,7 @@ public sealed class AnimalsList
     private string Category { get; set; }
     private static readonly object syncLock = new object();
 
-    private Singleton()
+    private AnimalsList()
     {
         Console.WriteLine("Singleton Intance");
         Name = "BlackBeauty";

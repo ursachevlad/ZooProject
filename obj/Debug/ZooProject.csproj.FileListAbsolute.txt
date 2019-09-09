@@ -1,0 +1,2 @@
+C:\Users\Vlad\source\repos\ZooProject\obj\Debug\ZooProject.csprojAssemblyReference.cache
+C:\Users\Vlad\source\repos\ZooProject\obj\Debug\ZooProject.csproj.CoreCompileInputs.cache

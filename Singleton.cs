@@ -2,24 +2,24 @@
 
 public sealed class AnimalsList
 {
-    private static AnimalsList animal = null;
+    private static AnimalsList instance = null;
     private static readonly object padlock = new object();
 
     AnimalsList()
     {
     }
 
-    public static AnimalsList Animal
+    public static AnimalsList Instance
     {
         get
         {
             lock (padlock)
             {
-                if (animalslist == null)
+                if (instance == null)
                 {
-                    animalslist = new AnimalsList();
+                    instance = new AnimalsList();
                 }
-                return animalslist;
+                return instance;
             }
         }
     }
